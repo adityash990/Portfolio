@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 30;
+}
+
+nav ul li {
+    display: inline-block; /* Use inline-block for spacing and box styles */
+    margin: 0 10px; /* Adjust spacing between boxes */
+}
+
+nav ul li a {
+    display: block; /* Make the link a block to apply box styles */
+    color: #ffffff; /* Text color */
+    background-color: #9cb074; /* Box background color */
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for the box */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+nav ul li a:hover {
+    background-color: #7fa862; /* Darken the background on hover */
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #385a6f;
+}
+
+.project-heading {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text color */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.project {
+    margin: 10px 0;
+    padding: 10px;
+    background: #e2e2e2;
+    border-radius: 5px;
+    color: #000000;
+}
+
+/* Existing styles remain unchanged */
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100px; /* Set width for square image */
+    height: 100px; /* Set height for square image */
+    border-radius: 80%; /* Optional: make it circular */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.achievement {
+    width: 20%; /* Adjust width to fit two items per row */
+    margin-bottom: 10px;
+}
+
+.achievement img {
+    width: 40%; /* Ensure images are responsive */
+    height: auto;
+}
+
+.contact-icon {
+    width: 20px; /* Set width for contact icons */
+    height: 20px; /* Set height for contact icons */
+    margin-right: 10px; /* Space between icon and text */
+    vertical-align: middle; /* Align icon with text */
+}
+/* Existing styles remain unchanged */
+
+.education-content {
+    display: flex;
+    align-items: center;
+}
+
+.small-image {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
